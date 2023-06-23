@@ -1,0 +1,95 @@
+*{
+    /* for setting up all things  to be 0  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* MAKING THE FLEX BOX */
+    display: flex;
+    /* IT SHOULD BE CENTRE SO DOING IT  */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*  USE COVER TO FILL THE SIZE */
+    background-image: url(/Week_7/1009981.jpg);
+    background-size: cover;
+}
+.movie-Container{
+    width: 80%;
+    height: auto;
+    /*SETTING UP HEIGHT WIDHT BG USING BLUR FOR ASTHETICS ETC   */
+    border: 5px solid rgb(150, 150, 150);
+    background: none;
+    backdrop-filter:blur(50px);
+}
+img{
+    /* USE FLOAT TO MAKE IT IN RIGHT */
+    float: right;
+}
+.title{
+    /* USING ABSOLUTE SO THAT IT BE IN PLACE  */
+    position: absolute;
+    color: rgb(247, 243, 243);
+
+    padding: 50px 80px;
+    font-size: 125px;
+    /* USING FONT FAMILY FOR FONT LOOKS  */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+/* SEE THE MULTIVERSE WRITTEN IT S LIKE ROBOTIC TEXT  BECAUSE OF THESE ELEMENTS */
+h3{
+    position: absolute;
+    font-size: 80px;
+    color: rgb(248, 248, 248);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 56px;
+    top: 180px;
+    left: 100px;
+}
+.dis{
+    position: absolute;
+    color: #ffffff;
+    top: 220px;
+    padding: 80px 80px;
+    font-size: 100px
+}
+button {
+    position: absolute;
+    top: 900px;
+    left: 700px;
+    padding: 20px 70px;
+    font-size: 130px;
+    border: 2px solid rgb(253, 253, 253);
+    color: #ffffff;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* I HAVE USED THE HOVER EFFECT SO THAT MY MOUSE WHEN COME IT COULD BE SEEN */
+button:hover{
+    color: rgb(244, 233, 233);
+    background: rgb(17, 16, 16);
+}
+a{
+    /* SO THATE THE LINE COMING BENATH REMOVED  */
+    text-decoration: none;
+    color: white;
+}
+.button2{
+    position: absolute;
+    top: 900px;
+    left: 1800px;
+    padding: 20px 70px;
+    font-size: 130px;
+    border: 2px solid rgb(253, 253, 253);
+    color: #ffffff;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
